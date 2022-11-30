@@ -35,7 +35,7 @@ const Projects = () => {
                     <div className="box">
                         <p>DailyHunt | News App</p>
                         <p className='prime'>DailyHunt is a news app build on React using<br /> api [News Api] It shows almost every <br /> type of news,such as Sports,Entertainment,<br/>  technology with infinte scroll and Top loading bar .</p>
-                        <button className='btn'><a href="https://github.com/hanifagitfit/newsapp/tree/master">See here</a></button>
+                        <button className='btn'><a href="https://github.com/hanifagitfit/newsapp">See here</a></button>
                     </div>
                 </div>
                

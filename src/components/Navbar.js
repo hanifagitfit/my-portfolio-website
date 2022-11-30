@@ -27,14 +27,14 @@ const splitLocation=pathname.split("/");
                         <li className={splitLocation[1]=== "skill"? "active": ""}>
                             <AnchorLink href="#skill">Skills</AnchorLink></li>
                         <li className={splitLocation[1] === "more"? "active": ""}>
-                            <Link to="/more">About me</Link></li>
+                            <Link to="/more">About Me</Link></li>
                         <li id='contact'>
                             <Link to="/contact" className='con'>Contact Me</Link></li>
                     </ul>
                     <div className="burger" onClick={()=>setMobile(!mobile)}>
                         {mobile ?(
-                            <img src={close} className="menue" alt="close" />):(
-                            <img src={menu} className="menue" alt="burger" />)
+                            <img src={close} alt="close" />):(
+                            <img src={menu}   alt="burger" />)
                         }
                     </div>
                 </nav>
