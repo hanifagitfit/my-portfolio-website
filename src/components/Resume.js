@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from '../pic/Resume.png'
+import resume from '../pic/FARHATUN.png'
 const Resume = () => {
   return (
     <div className='cv'>

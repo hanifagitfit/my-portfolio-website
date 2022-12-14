@@ -6,7 +6,7 @@ const About = () => {
             <section className="about">
                
                     <p className="graphics">
-                    Hi! i'm Farhatun and i'm interested in Web development...& making Web-design interesting.Love to create beautiful and performant products with delightful user experiences.
+                    Hi! I'm Farhatun and I'm interested in Web development...& making Web design interesting. Love to create beautiful and performant products with delightful user experiences.
                     </p>
                 
 
