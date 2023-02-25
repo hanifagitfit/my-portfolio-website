@@ -797,7 +797,7 @@ border-bottom: none;
   }
 
   .nav-links {
-    position: absolute;
+    position: fixed;
     top: 2%;
     display: block;
     right: 5%;
@@ -810,6 +810,9 @@ border-bottom: none;
     background: linear-gradient(rgb(240, 8, 47), white);
     text-align: center;
     transition: all 0.5s ease-out;
+  }
+  .burger{
+    position: fixed;
   }
   #contact{
     border: none;
@@ -883,4 +886,12 @@ border-bottom: none;
 .skill_container{
   height: 35rem;
 }
+  }
+  @media(min-width:900px)and (max-width:912px){
+    .skill_container{
+      height: 55rem;
+    }
+    .con{
+      padding: 2px 1px;
+    }
   }
