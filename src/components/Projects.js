@@ -3,6 +3,7 @@ import ecommerce from '../pic/ecommerce.png'
 import advice from '../pic/advice.png'
 import textutils from '../pic/Textutils.png'
 import news from '../pic/news.png'
+import hospital from '../pic/helpingHand.png';
 
 
 const Projects = () => {
@@ -11,6 +12,15 @@ const Projects = () => {
             <div className="title">My Projects</div>
             <div className="projects">
 
+                <div className="detail">
+                    <img src={hospital} alt="hospital" />
+                    <div className="box">
+                        <p>HELPING HANDS | HOSPITAL WEBSITE</p>
+                        <p className='prime'>Helping Hands is a hospital website built with react.<br /> Have Search bar to find Doctor.  responsive design<br />with multiple categories .</p>
+
+                        <button className='btn'><a href="https://helping-hands-hospitals.netlify.app/">See here</a></button>
+                    </div>
+                </div>
                 <div className="detail">
                     <img src={ecommerce} alt="ecom" />
                     <div className="box">
