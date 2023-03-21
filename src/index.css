@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Slab:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +10,7 @@
 body {
   background-color: rgb(23, 23, 23);
   /* background-color: #131111; */
-  margin-bottom: 10rem;
+  margin-bottom: 2rem;
   font-family: 'Signika Negative', sans-serif;
 }
 
@@ -31,7 +32,7 @@ body {
 .navbar {
 
   margin: 4rem 0;
-  
+
 }
 
 
@@ -65,7 +66,8 @@ li a:hover {
   display: flex;
   min-height: 100vh;
 }
-.resume{
+
+.resume {
   margin-top: 2rem;
   padding: 10px 15px;
   background: none;
@@ -77,15 +79,18 @@ li a:hover {
   color: black;
   letter-spacing: 1px;
 }
-.resume:hover{
+
+.resume:hover {
   transform: scale(0.9);
-  color:darkgray ;
+  color: darkgray;
   border: 1px solid black;
 }
-.cv{
+
+.cv {
   height: 100vh;
-  
+
 }
+
 .about {
   display: flex;
   align-items: center;
@@ -343,7 +348,7 @@ img {
 .logo h2 {
   text-align: center;
   font-size: 1.2rem;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 4px pink;
 }
 
 .size {
@@ -351,34 +356,39 @@ img {
 }
 
 /* Contact */
-#contact{
+#contact {
   border: 1px solid white;
   padding: 0.5rem 1.5rem;
   position: absolute;
   right: 5%;
 }
-#contact:hover{
-background-color: black;
+
+#contact:hover {
+  background-color: black;
 
 }
-#contact a:hover{
-border-bottom: none;
+
+#contact a:hover {
+  border-bottom: none;
 }
 
-.form_container form{
+.form_container form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  align-items: center; 
-  justify-content: center; 
+  align-items: center;
+  justify-content: center;
   font-family: 'Signika Negative', sans-serif;
 }
-.form_container input, textarea{
+
+.form_container input,
+textarea {
   padding: 1rem;
   width: 30%;
   margin-top: 2rem;
 }
-.submit{
+
+.submit {
   max-width: 15rem;
   background-color: rgb(74, 74, 79);
   cursor: pointer;
@@ -388,10 +398,12 @@ border-bottom: none;
   font-weight: bold;
   font-family: 'Signika Negative', sans-serif;
 }
-.submit:hover{
+
+.submit:hover {
   transform: scale(0.9);
-  background-color:rgba(74, 74, 79,0.5) ;
+  background-color: rgba(74, 74, 79, 0.5);
 }
+
 .container_two {
   background: linear-gradient(orange, red);
   position: absolute;
@@ -490,9 +502,10 @@ border-bottom: none;
   right: 7%;
   z-index: 10;
 }
-.over{
+
+.over {
   width: 50%;
-  margin:20px auto;
+  margin: 20px auto;
   display: block;
 }
 
@@ -500,6 +513,7 @@ border-bottom: none;
   .graphics {
     font-size: 1.8rem;
   }
+
   .projectIndicator {
     width: 9rem;
     height: 9rem;
@@ -523,10 +537,11 @@ border-bottom: none;
     font-size: 1.5rem;
   }
 }
-@media(min-width:360px)and (max-width:539px){
-.logo h2{
-   font-size: 0.9rem;
-}
+
+@media(min-width:360px)and (max-width:539px) {
+  .logo h2 {
+    font-size: 0.9rem;
+  }
 }
 
 
@@ -610,7 +625,7 @@ border-bottom: none;
 
   .btn {
     display: flex;
-    align-self: center; 
+    align-self: center;
     justify-content: center;
   }
 
@@ -626,11 +641,13 @@ border-bottom: none;
     align-items: center;
     text-align: center;
   }
+
   .btn {
     display: flex;
-    align-self: center; 
+    align-self: center;
     justify-content: center;
   }
+
   .project_container {
     margin: 1.5rem;
   }
@@ -677,11 +694,13 @@ border-bottom: none;
     align-items: center;
     text-align: center;
   }
+
   .btn {
     display: flex;
-    align-self: center; 
+    align-self: center;
     justify-content: center;
   }
+
   .box p {
     font-size: 1rem;
     padding: 0;
@@ -730,15 +749,18 @@ border-bottom: none;
     font-size: 1.8rem;
   }
 }
-@media (min-width:769px)and (max-width:915px){
-#contact{
-  position: absolute;
-  right: 1%;
+
+@media (min-width:769px)and (max-width:915px) {
+  #contact {
+    position: absolute;
+    right: 1%;
+  }
+
+  .graphics {
+    font-size: 1.8rem;
+  }
 }
-.graphics{
-  font-size: 1.8rem;
-}
-}
+
 @media (min-width:800px)and (max-width:1109px) {
   .skill_container {
     height: 30rem;
@@ -748,11 +770,13 @@ border-bottom: none;
     margin: 1.5rem 2.8rem;
   }
 }
-@media (min-width:912px)and (max-width:1023px){
-.skill_container{
-  height: 55rem;
+
+@media (min-width:912px)and (max-width:1023px) {
+  .skill_container {
+    height: 55rem;
+  }
 }
-}
+
 @media (min-width:566px)and (max-width:799px) {
   .size {
     width: 50px;
@@ -763,7 +787,7 @@ border-bottom: none;
   }
 }
 
-@media (min-width:360px)and (max-width:565px) {
+@media (min-width:360px)and (max-width:660px) {
   .skill_container {
     height: 30rem;
     margin: 0.8rem;
@@ -811,21 +835,25 @@ border-bottom: none;
     text-align: center;
     transition: all 0.5s ease-out;
   }
-  .burger{
+
+  .burger {
     position: fixed;
   }
-  #contact{
+
+  #contact {
     border: none;
     position: absolute;
     left: 0;
     right: 0;
   }
-  .con{
+
+  .con {
     border: 2px solid black;
     padding: 10px 17px;
     color: black;
-    
+
   }
+
   .gola1 {
     width: 8rem;
     height: 8rem;
@@ -864,34 +892,41 @@ border-bottom: none;
   .container {
     min-height: 40rem;
   }
-  .form_container input,textarea{
+
+  .form_container input,
+  textarea {
     width: 60%;
   }
 }
 
-  @media(min-width:390px)and (max-width:912px){
-.skill_container{
-  margin-bottom: 23rem;
+/* @media(min-width:390px)and (max-width:912px) {
+  .skill_container {
+    margin-bottom: 23rem;
+  }
+} */
+
+@media(min-width:768px)and (max-width:821px) {
+  /* .skill_container {
+    margin-bottom: 37rem;
+  } */
+
+  .circle4 {
+    display: none;
+  }
 }
+
+@media(min-width:300px)and (max-width:360px) {
+  .skill_container {
+    height: 35rem;
   }
-  @media(min-width:768px)and (max-width:821px){
-    .skill_container{
-      margin-bottom: 37rem;
-    }
-    .circle4{
-      display: none;
-    }
-    }
-  @media(min-width:300px)and (max-width:360px){
-.skill_container{
-  height: 35rem;
 }
+
+@media(min-width:900px)and (max-width:912px) {
+  .skill_container {
+    height: 55rem;
   }
-  @media(min-width:900px)and (max-width:912px){
-    .skill_container{
-      height: 55rem;
-    }
-    .con{
-      padding: 2px 1px;
-    }
+
+  .con {
+    padding: 2px 1px;
   }
+}
