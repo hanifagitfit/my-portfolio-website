@@ -21,15 +21,6 @@ const Projects = () => {
                         <button className='btn'><a href="https://helping-hands-hospitals.netlify.app/">See here</a></button>
                     </div>
                 </div>
-                <div className="detail">
-                    <img src={ecommerce} alt="ecom" />
-                    <div className="box">
-                        <p>E-COMMERCE PRODUCT PAGE | FRONTEND MENTOR CHALLENGE</p>
-                        <p className='prime'>This page is built with plain html,css and javaScript<br /> with    add- to-cart functionality.  Image-slidder &<br /> responsive design.</p>
-
-                        <button className='btn'><a href="https://hanifagitfit.github.io/ecommerce-product-page/">See here</a></button>
-                    </div>
-                </div>
 
                 <div className="detail">
                     <img src={news} alt="news" />
@@ -41,15 +32,6 @@ const Projects = () => {
                 </div>
 
                 <div className="detail">
-                    <img src={advice} alt="advice" />
-                    <div className="box">
-                        <p>ADVICE GENERATOR APP </p>
-                        <p className='prime'>This app is built with React and use<br /> api [Advice Slip API] which make it possible to<br /> generate a new piece of advice with every<br /> single click on dice.</p>
-
-                        <button className='btn'><a href=" https://hanifagitfit.github.io/advice-generator-app/">See here</a></button>
-                    </div>
-                </div>
-                <div className="detail">
                     <img src={textutils} alt="" />
                     <div className="box">
                         <p>TEXTUTILS | WORD COUNTER APP </p>
@@ -59,6 +41,28 @@ const Projects = () => {
 
                     </div>
                 </div>
+
+                <div className="detail">
+                    <img src={ecommerce} alt="ecom" />
+                    <div className="box">
+                        <p>E-COMMERCE PRODUCT PAGE | FRONTEND MENTOR CHALLENGE</p>
+                        <p className='prime'>This page is built with plain html,css and javaScript<br /> with    add- to-cart functionality.  Image-slidder &<br /> responsive design.</p>
+
+                        <button className='btn'><a href="https://hanifagitfit.github.io/ecommerce-product-page/">See here</a></button>
+                    </div>
+                </div>
+
+
+                <div className="detail">
+                    <img src={advice} alt="advice" />
+                    <div className="box">
+                        <p>ADVICE GENERATOR APP </p>
+                        <p className='prime'>This app is built with React and use<br /> api [Advice Slip API] which make it possible to<br /> generate a new piece of advice with every<br /> single click on dice.</p>
+
+                        <button className='btn'><a href=" https://hanifagitfit.github.io/advice-generator-app/">See here</a></button>
+                    </div>
+                </div>
+              
 
             </div>
         </section>
