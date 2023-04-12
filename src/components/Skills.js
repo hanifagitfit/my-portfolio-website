@@ -48,7 +48,7 @@ const Skills = () => {
         </div>
         <div className="logo">
           <img className='size' src={express} alt="exp" />
-          <h2>Express.js</h2>
+          <h2>Express</h2>
         </div>
         <div className="logo">
           <img className='size' src={responsive} alt="responsive" />
