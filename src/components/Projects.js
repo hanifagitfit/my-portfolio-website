@@ -1,5 +1,4 @@
 import React from 'react'
-import ecommerce from '../pic/ecommerce.png'
 import advice from '../pic/advice.png'
 import textutils from '../pic/Textutils.png'
 import news from '../pic/news.png'
@@ -42,15 +41,6 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="detail">
-                    <img src={ecommerce} alt="ecom" />
-                    <div className="box">
-                        <p>E-COMMERCE PRODUCT PAGE | FRONTEND MENTOR CHALLENGE</p>
-                        <p className='prime'>This page is built with plain html,css and javaScript<br /> with    add- to-cart functionality.  Image-slidder &<br /> responsive design.</p>
-
-                        <button className='btn'><a href="https://hanifagitfit.github.io/ecommerce-product-page/">See here</a></button>
-                    </div>
-                </div>
 
 
                 <div className="detail">
